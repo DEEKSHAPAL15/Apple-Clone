@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(145, 142, 142);
+}
+.navbar li {
+    width: 100%;
+    height: 10vh;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px-;
+}
+.navbar li img{
+    width: 200px;
+}
+.wonder{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.wonder img{
+    width: 150%;
+}
+.wonder  h1{
+    width: 100%;
+    height: auto;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 45px; 
+}
+.wonder p{
+    font-size: 22px;
+}
+.wonder h4{
+    font-size: 22px;
+    color: aqua;
+    margin-bottom: 50px;
+}
+.iphone{
+    width: 100%;
+    height: 80vh;
+    background-image: url('./images/iphone\ img.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+}
+.text-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;  
+    color: white;
+    font-size: 28px;
+}
+.watch{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./images/watch\ img.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.text-part2{
+    width: 100%;
+    height: auto;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    margin: 100px;
+
+}
+.text-part2 img{
+    width: 250px;
+   
+}
+.text-part2 h6{
+    width: 100%;
+    height: auto;
+   
+}
+.text-part2 h4{
+    width: 100%;
+    height: auto;
+    
+}
+.text-part2 button{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.grid {
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 15px;
+}
+.grid {
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 15px;
+}
+.boxes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-top: 100px;
+}
+.box1 {
+    width: 730px;
+    height: 580px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-image: url('./images/mackbook.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.box1 h1 {
+    font-size: 40px;
+    margin-top: 40px;
+}
+.box1 p {
+    font-size: 22px;
+    margin-top: 5px;
+}
+.box1 span {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 270px;
+    margin-top: 10px;
+}
+.box1 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+}
+.box2 {
+    width: 730px;
+    height: 580px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-image: url('./images/wonder_img-removebg-preview.png');
+    background-position: center;
+    background-size: cover;
+}
+.box2 h1 {
+    font-size: 40px;
+    margin-top: 40px;
+}
+.box2 p {
+    font-size: 22px;
+    margin-top: 5px;
+}
+.box2 span {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 270px;
+    margin-top: 10px;
+}
+.box2 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+}
+.box3 {
+    width: 730px;
+    height: 580px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-image: url('./images/iphone\ 15\ pro.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.box3 h1 {
+    font-size: 40px;
+    margin-top: 40px;
+}
+.box3 p {
+    font-size: 22px;
+    margin-top: 5px;
+}
+.box3 span {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 270px;
+    margin-top: 10px;
+}
+.box3 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+}
+.box4 {
+    width: 730px;
+    height: 580px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-image: url('./images/ultra\ .png');
+    background-position: center;
+    background-size: cover;
+}
+.box4 h1 {
+    font-size: 40px;
+    margin-top: 40px;
+}
+.box4 p {
+    font-size: 22px;
+    margin-top: 5px;
+}
+.box4 span {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 270px;
+    margin-top: 10px;
+}
+.box4 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+}
+.box5 {
+    width: 730px;
+    height: 580px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-image: url('./images/card.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.box5 h1 {
+    font-size: 40px;
+    margin-top: 40px;
+}
+.box5 p {
+    font-size: 22px;
+    margin-top: 5px;
+}
+.box5 span {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 270px;
+    margin-top: 10px;
+}
+.box5 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+}
+.box6 {
+    width: 730px;
+    height: 580px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-image: url('./images/trade.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.box6 h1 {
+    font-size: 40px;
+    margin-top: 40px;
+}
+.box6 p {
+    font-size: 22px;
+    margin-top: 5px;
+}
+.box6 span {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 270px;
+    margin-top: 10px;
+}
+.box6 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+}
+.paragraph {
+    width: 100%;
+    padding-inline: 220px;
+    color: rgb(110, 110, 115);
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.paragraph p {
+    margin-top: 8px;
+}
+
